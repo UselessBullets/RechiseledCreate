@@ -1,0 +1,91 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "block": "management_wanted:tile",
+      "slab": "management_wanted:tile_slabs",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:tile_stairs"
+    },
+    "management_wanted:confetti_tile",
+    "management_wanted:ruined_white_black_tiles",
+    {
+      "block": "management_wanted:wall_tiles",
+      "slab": "management_wanted:wall_tiles_slabs",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:wall_tiles_stairs"
+    },
+    {
+      "block": "management_wanted:blue_black_tiles",
+      "slab": "management_wanted:blue_black_tiles_slabs",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:blue_black_tiles_stairs"
+    },
+    {
+      "block": "management_wanted:blue_red_tiles",
+      "slab": "management_wanted:blue_red_tiles_slabs",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:blue_red_tiles_stairs"
+    },
+    {
+      "block": "management_wanted:white_red_tiles",
+      "slab": "management_wanted:white_red_tiles_slabs",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:white_red_tiles_stairs"
+    },
+    {
+      "block": "management_wanted:black_red_tiles",
+      "slab": "management_wanted:black_red_tiles_slabs",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:black_red_tiles_stairs"
+    },
+    {
+      "block": "management_wanted:black_green_tiles",
+      "slab": "management_wanted:black_green_tiles_slabs",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:black_green_tiles_stairs"
+    },
+    {
+      "block": "management_wanted:green_blue_tiles",
+      "slab": "management_wanted:green_blue_tiles_slabs",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:green_blue_tiles_stairs"
+    },
+    {
+      "block": "management_wanted:lol_tiles",
+      "slab": "management_wanted:lol_tiles_slabs",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:lol_tiles_stairs"
+    },
+    {
+      "block": "management_wanted:err_tiles",
+      "slab": "management_wanted:err_tiles_slabs",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:err_tiles_stairs"
+    },
+    {
+      "block": "management_wanted:orange_teal_tile",
+      "slab": "management_wanted:orange_teal_tiles_slabs",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:orange_teal_tiles_stairs"
+    },
+    "management_wanted:fright_tiles",
+    {
+      "block": "management_wanted:lime_black_small_tiles",
+      "slab": "management_wanted:lime_black_small_tiles_slabs",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:lime_black_small_tiles_stairs"
+    },
+    "management_wanted:fright_wall_tiles",
+    "management_wanted:lime_fright_flooring",
+    "management_wanted:scooper_floor",
+    "management_wanted:dirty_fright_wall_tiles",
+    "management_wanted:white_tile",
+    "management_wanted:sl_tile",
+    "management_wanted:sl_tile_green",
+    "management_wanted:rewritten_backroom_tile",
+    "management_wanted:rewritten_gray_black_tile",
+    "management_wanted:black_tomb_tiles"
+  ],
+  "overwrite": false
+}

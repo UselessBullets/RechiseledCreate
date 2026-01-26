@@ -1,0 +1,468 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "block": "management_wanted:stage_bricks_big",
+      "slab": "management_wanted:stage_bricks_big_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:stage_bricks_big_stairs"
+    },
+    {
+      "block": "management_wanted:stage_bricks",
+      "slab": "management_wanted:stage_bricks_slabs",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:stage_bricks_stairs"
+    },
+    {
+      "block": "management_wanted:stage_brick_tiles",
+      "slab": "management_wanted:stage_brick_tiles_slabs",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:stage_brick_tiles_stairs"
+    },
+    {
+      "block": "management_wanted:kitchen_facade_wall",
+      "slab": "management_wanted:kitchen_facade_wall_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:kitchen_facade_wall_stairs"
+    },
+    "management_wanted:kitchen_facade_wall_tiled",
+    "management_wanted:kitchen_tiles",
+    {
+      "block": "management_wanted:kitchen_bricks",
+      "slab": "management_wanted:kitchen_bricks_slabs",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:kitchen_bricks_stairs"
+    },
+    {
+      "block": "management_wanted:kitchen_bricks_big",
+      "slab": "management_wanted:kitchen_bricks_big_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:kitchen_bricks_big_stairs"
+    },
+    {
+      "block": "management_wanted:utility_bricks",
+      "slab": "management_wanted:utility_bricks_slabs",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:utility_bricks_stairs"
+    },
+    {
+      "block": "management_wanted:lined_utility_bricks",
+      "slab": "management_wanted:lined_utility_bricks_slabs",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:lined_utility_bricks_stairs"
+    },
+    {
+      "block": "management_wanted:chiseled_utility_bricks",
+      "slab": "management_wanted:chiseled_utility_bricks_slabs",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:chiseled_utility_bricks_stairs"
+    },
+    {
+      "block": "management_wanted:chiseled_utility_bricks_alternate",
+      "slab": "management_wanted:chiseled_utility_bricks_alternate_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:chiseled_utility_bricks_alternate_stairs"
+    },
+    {
+      "block": "management_wanted:light_facade_bricks_big",
+      "slab": "management_wanted:light_facade_bricks_big_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:light_facade_bricks_big_stairs"
+    },
+    {
+      "block": "management_wanted:light_facade_bricks",
+      "slab": "management_wanted:light_facade_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:light_facade_brick_stairs"
+    },
+    {
+      "block": "management_wanted:light_facade_wall",
+      "slab": "management_wanted:light_facade_wall_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:light_facade_wall_stairs"
+    },
+    "management_wanted:utility_facade_wall_tiled",
+    "management_wanted:tiled_light_facade_bricks",
+    "management_wanted:tiled_light_facade_wall",
+    "management_wanted:light_facade_bricks_big_tiled",
+    {
+      "block": "management_wanted:utility_facade_wall",
+      "slab": "management_wanted:utility_facade_wall_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:utility_facade_wall_stairs"
+    },
+    {
+      "block": "management_wanted:dark_facade_bricks_big",
+      "slab": "management_wanted:dark_facade_bricks_big_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:dark_facade_bricks_big_stairs"
+    },
+    {
+      "block": "management_wanted:dark_facade_bricks",
+      "slab": "management_wanted:dark_facade_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:dark_facade_brick_stairs"
+    },
+    {
+      "block": "management_wanted:dark_facade_wall",
+      "slab": "management_wanted:dark_facade_wall_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:dark_facade_wall_stairs"
+    },
+    "management_wanted:dark_facade_bricks_big_tiled",
+    "management_wanted:dark_facade_bricks_tiled",
+    "management_wanted:tiled_dark_facade_wall",
+    {
+      "block": "management_wanted:red_facade_bricks_big",
+      "slab": "management_wanted:red_facade_bricks_big_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:red_facade_bricks_big_stairs"
+    },
+    {
+      "block": "management_wanted:red_facade_bricks",
+      "slab": "management_wanted:red_facade_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:red_facade_brick_stairs"
+    },
+    {
+      "block": "management_wanted:red_facade_wall",
+      "slab": "management_wanted:red_facade_wall_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:red_facade_wall_stairs"
+    },
+    "management_wanted:red_facade_bricks_big_tiled",
+    "management_wanted:red_facade_bricks_tiled",
+    "management_wanted:red_facade_wall_tiled",
+    {
+      "block": "management_wanted:green_facade_bricks_big",
+      "slab": "management_wanted:green_facade_bricks_big_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:green_facade_bricks_big_stairs"
+    },
+    {
+      "block": "management_wanted:green_facade_bricks",
+      "slab": "management_wanted:green_facade_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:green_facade_brick_stairs"
+    },
+    {
+      "block": "management_wanted:green_facade_wall",
+      "slab": "management_wanted:green_facade_wall_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:green_facade_wall_stairs"
+    },
+    "management_wanted:green_facade_bricks_big_tiled",
+    "management_wanted:green_facade_bricks_tiled",
+    "management_wanted:green_facade_wall_tiled",
+    {
+      "block": "management_wanted:lime_facade_bricks_big",
+      "slab": "management_wanted:lime_facade_bricks_big_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:lime_facade_bricks_big_stairs"
+    },
+    {
+      "block": "management_wanted:lime_facade_bricks",
+      "slab": "management_wanted:lime_facade_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:lime_facade_brick_stairs"
+    },
+    {
+      "block": "management_wanted:lime_facade_wall",
+      "slab": "management_wanted:lime_facade_wall_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:lime_facade_wall_stairs"
+    },
+    "management_wanted:lime_facade_bricks_big_tiled",
+    "management_wanted:lime_facade_bricks_tiled",
+    "management_wanted:lime_facade_wall_tiled",
+    {
+      "block": "management_wanted:blue_facade_bricks_big",
+      "slab": "management_wanted:blue_facade_bricks_big_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:blue_facade_bricks_big_stairs"
+    },
+    {
+      "block": "management_wanted:blue_facade_bricks",
+      "slab": "management_wanted:blue_facade_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:blue_facade_brick_stairs"
+    },
+    {
+      "block": "management_wanted:blue_facade_wall",
+      "slab": "management_wanted:blue_facade_wall_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:blue_facade_wall_stairs"
+    },
+    "management_wanted:blue_facade_bricks_big_tiled",
+    "management_wanted:blue_facade_bricks_tiled",
+    "management_wanted:blue_facade_wall_tiled",
+    {
+      "block": "management_wanted:cyan_facade_bricks_big",
+      "slab": "management_wanted:cyan_facade_bricks_big_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:cyan_facade_bricks_big_stairs"
+    },
+    {
+      "block": "management_wanted:cyan_facade_bricks",
+      "slab": "management_wanted:cyan_facade_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:cyan_facade_brick_stairs"
+    },
+    {
+      "block": "management_wanted:cyan_facade_wall",
+      "slab": "management_wanted:cyan_facade_wall_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:cyan_facade_wall_stairs"
+    },
+    "management_wanted:cyan_facade_bricks_big_tiled",
+    "management_wanted:cyan_facade_bricks_tiled",
+    "management_wanted:cyan_facade_wall_tiled",
+    {
+      "block": "management_wanted:brown_facade_bricks_big",
+      "slab": "management_wanted:brown_facade_bricks_big_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:brown_facade_bricks_big_stairs"
+    },
+    {
+      "block": "management_wanted:brown_facade_bricks",
+      "slab": "management_wanted:brown_facade_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:brown_facade_brick_stairs"
+    },
+    {
+      "block": "management_wanted:brown_facade_wall",
+      "slab": "management_wanted:brown_facade_wall_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:brown_facade_wall_stairs"
+    },
+    "management_wanted:brown_facade_bricks_big_tiled",
+    "management_wanted:brown_facade_bricks_tiled",
+    "management_wanted:brown_facade_wall_tiled",
+    {
+      "block": "management_wanted:gray_facade_bricks_big",
+      "slab": "management_wanted:gray_facade_bricks_big_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:gray_facade_bricks_big_stairs"
+    },
+    {
+      "block": "management_wanted:gray_facade_bricks",
+      "slab": "management_wanted:gray_facade_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:gray_facade_brick_stairs"
+    },
+    {
+      "block": "management_wanted:gray_facade_wall",
+      "slab": "management_wanted:gray_facade_wall_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:gray_facade_wall_stairs"
+    },
+    "management_wanted:gray_facade_bricks_big_tiled",
+    "management_wanted:gray_facade_bricks_tiled",
+    "management_wanted:gray_facade_wall_tiled",
+    {
+      "block": "management_wanted:dark_gray_facade_bricks_big",
+      "slab": "management_wanted:dark_gray_facade_bricks_big_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:dark_gray_facade_bricks_big_stairs"
+    },
+    {
+      "block": "management_wanted:dark_gray_facade_bricks",
+      "slab": "management_wanted:dark_gray_facade_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:dark_gray_facade_brick_stairs"
+    },
+    {
+      "block": "management_wanted:dark_gray_facade_wall",
+      "slab": "management_wanted:dark_gray_facade_wall_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:dark_gray_facade_wall_stairs"
+    },
+    "management_wanted:dark_gray_facade_bricks_big_tiled",
+    "management_wanted:dark_gray_facade_bricks_tiled",
+    "management_wanted:dark_gray_facade_wall_tiled",
+    {
+      "block": "management_wanted:purple_facade_bricks_big",
+      "slab": "management_wanted:purple_facade_bricks_big_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:purple_facade_bricks_big_stairs"
+    },
+    {
+      "block": "management_wanted:purple_facade_bricks",
+      "slab": "management_wanted:purple_facade_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:purple_facade_brick_stairs"
+    },
+    {
+      "block": "management_wanted:purple_facade_wall",
+      "slab": "management_wanted:purple_facade_wall_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:purple_facade_wall_stairs"
+    },
+    "management_wanted:purple_facade_bricks_big_tiled",
+    "management_wanted:purple_facade_bricks_tiled",
+    "management_wanted:purple_facade_wall_tiled",
+    {
+      "block": "management_wanted:magenta_facade_bricks_big",
+      "slab": "management_wanted:magenta_facade_bricks_big_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:magenta_facade_bricks_big_stairs"
+    },
+    {
+      "block": "management_wanted:magenta_facade_bricks",
+      "slab": "management_wanted:magenta_facade_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:magenta_facade_brick_stairs"
+    },
+    {
+      "block": "management_wanted:magenta_facade_wall",
+      "slab": "management_wanted:magenta_facade_wall_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:magenta_facade_wall_stairs"
+    },
+    "management_wanted:magenta_facade_bricks_big_tiled",
+    "management_wanted:magenta_facade_bricks_tiled",
+    "management_wanted:magenta_facade_wall_tiled",
+    {
+      "block": "management_wanted:orange_facade_bricks_big",
+      "slab": "management_wanted:orange_facade_bricks_big_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:orange_facade_bricks_big_stairs"
+    },
+    {
+      "block": "management_wanted:orange_facade_bricks",
+      "slab": "management_wanted:orange_facade_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:orange_facade_brick_stairs"
+    },
+    {
+      "block": "management_wanted:orange_facade_wall",
+      "slab": "management_wanted:orange_facade_wall_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:orange_facade_wall_stairs"
+    },
+    "management_wanted:orange_facade_bricks_big_tiled",
+    "management_wanted:orange_facade_bricks_tiled",
+    "management_wanted:orange_facade_wall_tiled",
+    {
+      "block": "management_wanted:yellow_facade_bricks_big",
+      "slab": "management_wanted:yellow_facade_bricks_big_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:yellow_facade_bricks_big_stairs"
+    },
+    {
+      "block": "management_wanted:yellow_facade_bricks",
+      "slab": "management_wanted:yellow_facade_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:yellow_facade_brick_stairs"
+    },
+    {
+      "block": "management_wanted:yellow_facade_wall",
+      "slab": "management_wanted:yellow_facade_wall_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:yellow_facade_wall_stairs"
+    },
+    "management_wanted:yellow_facade_bricks_big_tiled",
+    "management_wanted:yellow_facade_bricks_tiled",
+    "management_wanted:yellow_facade_wall_tiled",
+    {
+      "block": "management_wanted:light_blue_facade_bricks_big",
+      "slab": "management_wanted:light_blue_facade_bricks_big_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:light_blue_facade_bricks_big_stairs"
+    },
+    {
+      "block": "management_wanted:light_blue_facade_bricks",
+      "slab": "management_wanted:light_blue_facade_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:light_blue_facade_brick_stairs"
+    },
+    {
+      "block": "management_wanted:light_blue_facade_wall",
+      "slab": "management_wanted:light_blue_facade_wall_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:light_blue_facade_wall_stairs"
+    },
+    "management_wanted:light_blue_facade_bricks_big_tiled",
+    "management_wanted:light_blue_facade_bricks_tiled",
+    "management_wanted:light_blue_facade_wall_tiled",
+    {
+      "block": "management_wanted:pink_facade_bricks_big",
+      "slab": "management_wanted:pink_facade_bricks_big_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:pink_facade_bricks_big_stairs"
+    },
+    {
+      "block": "management_wanted:pink_facade_bricks",
+      "slab": "management_wanted:pink_facade_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:pink_facade_brick_stairs"
+    },
+    {
+      "block": "management_wanted:pink_facade_wall",
+      "slab": "management_wanted:pink_facade_wall_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:pink_facade_wall_stairs"
+    },
+    "management_wanted:pink_facade_bricks_big_tiled",
+    "management_wanted:pink_facade_bricks_tiled",
+    "management_wanted:pink_facade_wall_tiled",
+    {
+      "block": "management_wanted:white_facade_bricks_big",
+      "slab": "management_wanted:white_facade_bricks_big_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:white_facade_bricks_big_stairs"
+    },
+    {
+      "block": "management_wanted:white_facade_bricks",
+      "slab": "management_wanted:white_facade_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:white_facade_brick_stairs"
+    },
+    {
+      "block": "management_wanted:white_facade_wall",
+      "slab": "management_wanted:white_facade_wall_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:white_facade_wall_stairs"
+    },
+    "management_wanted:white_facade_bricks_big_tiled",
+    "management_wanted:white_facade_bricks_tiled",
+    "management_wanted:white_facade_wall_tiled",
+    {
+      "block": "management_wanted:black_facade_bricks_big",
+      "slab": "management_wanted:black_facade_bricks_big_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:black_facade_bricks_big_stairs"
+    },
+    {
+      "block": "management_wanted:black_facade_bricks",
+      "slab": "management_wanted:black_facade_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:black_facade_brick_stairs"
+    },
+    {
+      "block": "management_wanted:black_facade_wall",
+      "slab": "management_wanted:black_facade_wall_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:black_facade_wall_stairs"
+    },
+    "management_wanted:black_facade_bricks_big_tiled",
+    "management_wanted:black_facade_bricks_tiled",
+    "management_wanted:black_facade_wall_tiled",
+    {
+      "block": "management_wanted:rotten_facade_bricks",
+      "slab": "management_wanted:rotten_facade_brick_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:rotten_facade_brick_stairs"
+    },
+    {
+      "block": "management_wanted:rotten_facade_wall",
+      "slab": "management_wanted:rotten_facade_wall_slab",
+      "slab_worth": 0.5,
+      "stairs": "management_wanted:rotten_facade_wall_stairs"
+    },
+    "management_wanted:tiled_rotten_facade_bricks",
+    "management_wanted:rotten_facade_bricks_tiled",
+    "management_wanted:rotten_facade_wall_tiled"
+  ],
+  "overwrite": false
+}

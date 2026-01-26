@@ -1,0 +1,23 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    "management_wanted:big_entrance_door",
+    "management_wanted:big_entrance_door_black",
+    "management_wanted:big_entrance_door_blue",
+    "management_wanted:big_entrance_door_brown",
+    "management_wanted:big_entrance_door_cyan",
+    "management_wanted:big_entrance_door_gray",
+    "management_wanted:big_entrance_door_light_blue",
+    "management_wanted:big_entrance_door_light_gray",
+    "management_wanted:big_entrance_door_green",
+    "management_wanted:big_entrance_door_lime",
+    "management_wanted:big_entrance_door_magenta",
+    "management_wanted:big_entrance_door_orange",
+    "management_wanted:big_entrance_door_pink",
+    "management_wanted:big_entrance_door_purple",
+    "management_wanted:big_entrance_door_yellow",
+    "management_wanted:big_kitchen_pushdoor",
+    "management_wanted:big_diner_pushdoor"
+  ],
+  "overwrite": false
+}

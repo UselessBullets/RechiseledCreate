@@ -1,0 +1,15 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    "management_wanted:backstage_door",
+    "management_wanted:parts_service_door",
+    "management_wanted:big_exit_door",
+    "management_wanted:big_red_exit_door",
+    "management_wanted:big_closet_door",
+    "management_wanted:big_bedroom_door_right",
+    "management_wanted:big_bedroom_door_left",
+    "management_wanted:small_closet_door",
+    "management_wanted:fnafsl_door"
+  ],
+  "overwrite": false
+}
