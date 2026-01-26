@@ -80,12 +80,15 @@
     "management_wanted:lime_fright_flooring",
     "management_wanted:scooper_floor",
     "management_wanted:dirty_fright_wall_tiles",
+    "management_wanted:outside_fright_wall",
     "management_wanted:white_tile",
     "management_wanted:sl_tile",
     "management_wanted:sl_tile_green",
     "management_wanted:rewritten_backroom_tile",
     "management_wanted:rewritten_gray_black_tile",
-    "management_wanted:black_tomb_tiles"
+    "management_wanted:black_tomb_tiles",
+    "management_wanted:white_tile_big",
+    "management_wanted:black_tile_big"
   ],
   "overwrite": false
 }

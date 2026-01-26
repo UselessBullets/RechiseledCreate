@@ -1,5 +1,6 @@
 package org.useless.rechiseled.mw;
 
+import com.supermartijn642.rechiseled.api.BaseChiselingRecipes;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.ItemLike;
 import com.supermartijn642.core.registry.Registries;
@@ -9,6 +10,8 @@ import java.util.function.Supplier;
 import static org.useless.rechiseled.mw.RechiseledMW.REGISTRATION;
 
 public class Recipes {
+    public static final ResourceLocation MC_GRASS = location("minecraft_grass");
+
     public static final ResourceLocation FREDDY_TILES = location("freddy_tiles");
     public static final ResourceLocation FREDDY_CURTAINS = location("freddy_curtains");
     public static final ResourceLocation FREDDY_CARPET = location("freddy_carpet");
@@ -65,6 +68,8 @@ public class Recipes {
         regularBlockOnly(FREDDY_TILES, "management_wanted:rewritten_backroom_tile");
         regularBlockOnly(FREDDY_TILES, "management_wanted:rewritten_gray_black_tile");
         regularBlockOnly(FREDDY_TILES, "management_wanted:black_tomb_tiles");
+        regularBlockOnly(FREDDY_TILES, "management_wanted:white_tile_big");
+        regularBlockOnly(FREDDY_TILES, "management_wanted:black_tile_big");
 
         // MW Curtain conversions
         regularBlockOnly(FREDDY_CURTAINS, "management_wanted:purple_curtain");
@@ -411,7 +416,7 @@ public class Recipes {
         regularBlockOnly(FREDDY_WALLS, "management_wanted:fnac_many_tiles");
         regularBlockOnly(FREDDY_WALLS, "management_wanted:fnaf_2_top_wall_confetti");
         regularBlockOnly(FREDDY_WALLS, "management_wanted:fnaf_2_top_wall_confetti_full");
-        regularBlockOnly(FREDDY_WALLS, "management_wanted:fnaf_2_top_wall");
+        regularBlockOnly(FREDDY_WALLS, "management_wanted:fnaf_2_wall_top");
         regularBlockOnly(FREDDY_WALLS, "management_wanted:fnaf_2_wall");
         regularBlockOnly(FREDDY_WALLS, "management_wanted:fnaf_2_tiles");
         regularBlockOnly(FREDDY_WALLS, "management_wanted:fnaf_2_wall_tile_trim_red_black");
@@ -421,9 +426,9 @@ public class Recipes {
         regularBlockOnly(FREDDY_WALLS, "management_wanted:stripped_fnaf_2_wall_top");
         regularBlockOnly(FREDDY_WALLS, "management_wanted:stripped_fnaf_2_wall");
 
-        regularBlockOnly(FREDDY_WALLS, "management_wanted:green_home_wall");
-        regularBlockOnly(FREDDY_WALLS, "management_wanted:green_home_wall_top");
-        regularBlockOnly(FREDDY_WALLS, "management_wanted:green_home_wall_bottom");
+        regularBlockOnly(FREDDY_WALLS, "management_wanted:home_wall");
+        regularBlockOnly(FREDDY_WALLS, "management_wanted:home_wall_top");
+        regularBlockOnly(FREDDY_WALLS, "management_wanted:home_wall_bottom");
         regularBlockOnly(FREDDY_WALLS, "management_wanted:green_home_wall");
         regularBlockOnly(FREDDY_WALLS, "management_wanted:green_home_wall_top");
         regularBlockOnly(FREDDY_WALLS, "management_wanted:bedroom_wall_bottom");
@@ -443,10 +448,7 @@ public class Recipes {
         regularBlockOnly(FREDDY_WALLS, "management_wanted:sl_cladding_bottom_white");
         regularBlockOnly(FREDDY_WALLS, "management_wanted:sl_cladding_middle_white");
         regularBlockOnly(FREDDY_WALLS, "management_wanted:sl_cladding_top_white");
-        regularBlockOnly(FREDDY_WALLS, "management_wanted:sl_tile");
-        regularBlockOnly(FREDDY_WALLS, "management_wanted:sl_tile_green");
         regularBlockOnly(FREDDY_WALLS, "management_wanted:rewritten_bricks");
-        regularBlockOnly(FREDDY_WALLS, "management_wanted:rewritten_gray_black_tile");
 
         regularBlockOnly(FREDDY_WALLS, "management_wanted:yellow_movie_wall_trim");
         regularSet(FREDDY_WALLS, "management_wanted:yellow_movie_wall", "management_wanted:yellow_movie_wall_stairs", "management_wanted:yellow_movie_wall_slab");
@@ -454,27 +456,51 @@ public class Recipes {
         regularBlockOnly(FREDDY_WALLS, "management_wanted:purple_movie_wall_trim");
         regularSet(FREDDY_WALLS, "management_wanted:purple_movie_wall", "management_wanted:purple_movie_wall_stairs", "management_wanted:purple_movie_wall_slab");
         regularBlockOnly(FREDDY_WALLS, "management_wanted:purple_movie_wall_tile_trim");
-        regularBlockOnly(FREDDY_WALLS, "management_wanted:cyan_movie_wall_trim");
         regularSet(FREDDY_WALLS, "management_wanted:cyan_movie_wall", "management_wanted:cyan_movie_wall_stairs", "management_wanted:cyan_movie_wall_slab");
-        regularBlockOnly(FREDDY_WALLS, "management_wanted:cyan_movie_wall_tile_trim");
+        regularBlockOnly(FREDDY_WALLS, "management_wanted:cyan_movie_tiles");
 
         regularBlockOnly(FREDDY_WALLS, "management_wanted:ba_gwall_top");
         regularBlockOnly(FREDDY_WALLS, "management_wanted:ba_gwall_middle");
         regularBlockOnly(FREDDY_WALLS, "management_wanted:ba_gwall_bottom_title");
         regularBlockOnly(FREDDY_WALLS, "management_wanted:ba_gwall_bottom");
 
-        regularBlockOnly(FREDDY_WALLS, "management_wanted:rotton_top_wall");
-        regularBlockOnly(FREDDY_WALLS, "management_wanted:rotton_wall");
-        regularBlockOnly(FREDDY_WALLS, "management_wanted:rotton_bottom_wall");
+        regularBlockOnly(FREDDY_WALLS, "management_wanted:rotten_top_wall");
+        regularBlockOnly(FREDDY_WALLS, "management_wanted:rotten_wall");
+        regularBlockOnly(FREDDY_WALLS, "management_wanted:rotten_bottom_wall");
 
         regularBlockOnly(FREDDY_WALLS, "management_wanted:fredbear_wall_tile");
-        regularBlockOnly(FREDDY_WALLS, "management_wanted:fredbear_wall");
         regularSet(FREDDY_WALLS, "management_wanted:fredbear_wall", "management_wanted:fredbear_wall_stairs", "management_wanted:fredbear_wall_slab");
         regularSet(FREDDY_WALLS, "management_wanted:fredbear_wall_top", "management_wanted:fredbear_wall_top_stairs", "management_wanted:fredbear_wall_top_slab");
 
         regularBlockOnly(FREDDY_WALLS, "management_wanted:fredbear_wall_tile_minigame");
         regularSet(FREDDY_WALLS, "management_wanted:fredbear_wall_minigame", "management_wanted:fredbear_wall_minigame_stairs", "management_wanted:fredbear_wall_minigame_slab");
         regularSet(FREDDY_WALLS, "management_wanted:fredbear_wall_top_minigame", "management_wanted:fredbear_wall_top_minigame_stairs", "management_wanted:fredbear_wall_top_minigame_slab");
+
+        regularBlockOnly(FREDDY_WALLS, "management_wanted:jeffs_facade_wall");
+        regularBlockOnly(FREDDY_WALLS, "management_wanted:jeffs_facade_bricks");
+        regularBlockOnly(FREDDY_WALLS, "management_wanted:jeffs_facade_bricks_tile_trim");
+        regularBlockOnly(FREDDY_WALLS, "management_wanted:jeffs_facade_bricks_top_trim");
+        regularBlockOnly(FREDDY_WALLS, "management_wanted:jeffs_outer_wall");
+        regularBlockOnly(FREDDY_WALLS, "management_wanted:jeffs_outer_wall_bottom");
+
+        // MW Dirt
+        regularBlockOnly(BaseChiselingRecipes.DIRT, "management_wanted:faz_hills_dirt");
+        regularBlockOnly(BaseChiselingRecipes.DIRT, "management_wanted:dusting_dirt");
+        regularBlockOnly(BaseChiselingRecipes.DIRT, "management_wanted:black_tomb_dirt");
+        regularBlockOnly(BaseChiselingRecipes.DIRT, "management_wanted:flipside_dirt");
+
+        // MW Grass
+        regularBlockOnly(MC_GRASS, "minecraft:grass_block");
+        regularBlockOnly(MC_GRASS, "management_wanted:faz_hills_grass");
+        regularBlockOnly(MC_GRASS, "management_wanted:choppy_grass");
+        regularBlockOnly(MC_GRASS, "management_wanted:dusting_grass");
+        regularBlockOnly(MC_GRASS, "management_wanted:black_tomb_grass");
+        regularBlockOnly(MC_GRASS, "management_wanted:flipside_grass");
+
+        // MW Stone
+        regularBlockOnly(BaseChiselingRecipes.STONE, "management_wanted:faz_hills_stone");
+        regularBlockOnly(BaseChiselingRecipes.STONE, "management_wanted:faz_hills_rock");
+        regularBlockOnly(BaseChiselingRecipes.STONE, "management_wanted:flipside_stone");
     }
 
     private static void regularBlockOnly(ResourceLocation recipe, Supplier<ItemLike> block){

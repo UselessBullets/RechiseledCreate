@@ -36,7 +36,8 @@
       "slab": "management_wanted:bedroom_carpet_slab",
       "slab_worth": 0.5,
       "stairs": "management_wanted:bedroom_carpet_stairs"
-    }
+    },
+    "management_wanted:bedroom_blanket"
   ],
   "overwrite": false
 }
