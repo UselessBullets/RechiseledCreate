@@ -28,10 +28,16 @@ repositories {
         }
         filter { includeGroup "org.spongepowered" }
     }
-    maven { url = "https://maven.createmod.net" } // Create, Flywheel, Ponder
     maven { url = "https://modmaven.dev/" } // Registrate
     maven { url = "https://maven.shedaniel.me/" } // REI
     maven { url = "https://maven.blamejared.com/" } // JEI
+    maven { // Gecko
+        name = 'GeckoLib'
+        url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+        content {
+            includeGroup("software.bernie.geckolib")
+        }
+    }
 }
 
 dependencies {
@@ -46,12 +52,10 @@ dependencies {
     implementation fg.deobf("curse.maven:rechiseled-558998:${rechiseled_file}")
     // Fusion
     implementation fg.deobf("maven.modrinth:fusion-connected-textures:${fusion_version}")
-    // Create
-    implementation fg.deobf("com.simibubi.create:create-${minecraft_version}:${create_version}:slim") { transitive = false }
-    // Flywheel
-    implementation fg.deobf("dev.engine-room.flywheel:flywheel-forge-${minecraft_version}:${flywheel_version}")
-    // Ponder
-    implementation fg.deobf("net.createmod.ponder:Ponder-Forge-${minecraft_version}:${ponder_version}")
+    // Management wanted
+    implementation fg.deobf("maven.modrinth:management-wanted:${mw_version}")
+    implementation fg.deobf("software.bernie.geckolib:geckolib-forge-${minecraft_version}:${geckolib_version}")
+//    implementation fg.deobf(files("libs/sp-1.20.1-1.6.5.jar"))
     // Registrate
     implementation fg.deobf("com.tterrag.registrate:Registrate:${registrate_version}")
     // Mixin Extras
@@ -119,7 +123,7 @@ minecraft {
             args "--output", file("src/generated/resources/")
             args "--existing", layout.buildDirectory.file("/data_resources").map { it.asFile }.get()
             // Allow referencing Create's resources
-            args "--existing-mod", "create"
+            args "--existing-mod", "management_wanted"
         }
     }
 }
@@ -171,45 +175,3 @@ tasks.configureEach {
 
 // Force the jar to be reobfuscated
 jar.finalizedBy('reobfJar')
-
-publishMods {
-    file = jar.archiveFile
-    displayName = "${mod_name} ${mod_version} for Forge ${minecraft_suffix.substring(2)}"
-    version = project.version
-    //noinspection UnnecessaryQualifiedReference
-    type = me.modmuss50.mpp.ReleaseType.of(publishing_release_type.toUpperCase())
-    changelog = file("changelog.md").text
-    modLoaders.add("forge")
-    modLoaders.add("neoforge")
-    maxRetries = 2
-
-    curseforge {
-        accessToken = System.getenv("CURSEFORGE_TOKEN")
-        projectId = curseforge_project_id
-        if (!curseforge_required_dependency_ids.isEmpty())
-            curseforge_required_dependency_ids.split(" ").each it::requires
-        if (!curseforge_optional_dependency_ids.isEmpty())
-            curseforge_optional_dependency_ids.split(" ").each it::optional
-        publishing_game_versions.split(" ").each minecraftVersions::add
-        clientRequired = true
-        serverRequired = true
-    }
-
-    modrinth {
-        accessToken = System.getenv("MODRINTH_TOKEN")
-        projectId = modrinth_project_id
-        displayName = "${mod_name} ${mod_version}"
-        if (!modrinth_required_dependency_ids.isEmpty())
-            modrinth_required_dependency_ids.split(" ").each it::requires
-        if (!modrinth_optional_dependency_ids.isEmpty())
-            modrinth_optional_dependency_ids.split(" ").each it::optional
-        publishing_game_versions.split(" ").each minecraftVersions::add
-    }
-}
-
-// Rename the 'publishMods' task
-tasks.publishMods.group = "other"
-tasks.register("publishAll") {
-    group = "publishing"
-    dependsOn(tasks.publishMods)
-}

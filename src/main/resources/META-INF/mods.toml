@@ -59,10 +59,10 @@ description='''${mod_description}'''
     versionRange="${rechiseled_dependency}"
     ordering="NONE"
     side="BOTH"
-# Add a dependency on Create
+# Add a dependency on mw
 [[dependencies.${mod_id}]]
-    modId="create"
+    modId="management_wanted"
     mandatory=true
-    versionRange="${create_dependency}"
+    versionRange="${mw_dependency}"
     ordering="NONE"
     side="BOTH"
