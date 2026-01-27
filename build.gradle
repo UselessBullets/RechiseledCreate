@@ -44,6 +44,8 @@ dependencies {
     // Forge
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
+    annotationProcessor "org.spongepowered:mixin:0.8.5:processor"
+
     // Core library
     implementation fg.deobf("curse.maven:supermartijn642s-core-lib-454372:${core_library_file}")
     // Config library
@@ -91,7 +93,14 @@ processResources {
     exclude "**/*.pdn"
 
     rename "^modid.mixins.json\$", "${mod_id}.mixins.json"
+    rename "^modid.mixins.refmap.json\$", "${mod_id}.mixins.refmap.json"
     rename "^icon.png\$", "${mod_id}.png"
+}
+
+mixin {
+    // MixinGradle Settings
+    add sourceSets.main, "${mod_id}.mixins.refmap.json"
+    config "${mod_id}.mixins.json"
 }
 
 minecraft {

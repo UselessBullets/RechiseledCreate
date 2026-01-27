@@ -1,12 +1,14 @@
 package org.useless.rechiseled.mw;
 
+import com.mojang.logging.LogUtils;
 import com.supermartijn642.rechiseled.api.registration.RechiseledRegistration;
 import net.minecraftforge.fml.common.Mod;
+import org.slf4j.Logger;
 
 @Mod(RechiseledMW.MODID)
 public class RechiseledMW {
-
     public static final String MODID = "rechiseledmw";
+    public static final Logger LOGGER = LogUtils.getLogger();
     public static final RechiseledRegistration REGISTRATION = RechiseledRegistration.get(MODID);
 
 

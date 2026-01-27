@@ -1,0 +1,10 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "package": "org.useless.rechiseled.mw.mixin",
+  "refmap": "rechiseledmw.mixins.refmap.json",
+  "mixins": [
+    "MWBiomeMixin"
+  ],
+  "client": [],
+  "server": []
+}
