@@ -1,7 +1,7 @@
 {
   "compatibilityLevel": "JAVA_8",
-  "package": "org.useless.rechiseled.mw.mixin",
-  "refmap": "rechiseledmw.mixins.refmap.json",
+  "package": "org.useless.tweaks.mixin",
+  "refmap": "uselesstweaks.mixins.refmap.json",
   "mixins": [
     "MWBiomeMixin"
   ],

@@ -1,9 +1,0 @@
-{
-  "type": "rechiseled:chiseling",
-  "entries": [
-    "management_wanted:faz_hills_stone",
-    "management_wanted:faz_hills_rock",
-    "management_wanted:flipside_stone"
-  ],
-  "overwrite": false
-}
