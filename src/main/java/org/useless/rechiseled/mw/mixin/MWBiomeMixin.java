@@ -58,7 +58,6 @@ public abstract class MWBiomeMixin {
     @SubscribeEvent
     @Overwrite
     public static void onServerAboutToStart(ServerAboutToStartEvent event) {
-        RechiseledMW.LOGGER.info("Did MW Biome Mixin!");
         MinecraftServer server = event.getServer();
         Registry<DimensionType> dimensionTypeRegistry = server.registryAccess().registryOrThrow(Registries.DIMENSION_TYPE);
         Registry<LevelStem> levelStemTypeRegistry = server.registryAccess().registryOrThrow(Registries.LEVEL_STEM);
@@ -68,8 +67,8 @@ public abstract class MWBiomeMixin {
             DimensionType dimensionType = levelStem.type().value();
             if (dimensionType == dimensionTypeRegistry.getOrThrow(BuiltinDimensionTypes.OVERWORLD)) {
                 ChunkGenerator chunkGenerator = levelStem.generator();
-                BiomeSource var10 = chunkGenerator.getBiomeSource();
-                if (var10 instanceof MultiNoiseBiomeSource noiseSource) {
+                if (chunkGenerator.getBiomeSource() instanceof MultiNoiseBiomeSource noiseSource) {
+                    RechiseledMW.LOGGER.info("Did MW Biome Mixin!");
                     List<Pair<Climate.ParameterPoint, Holder<Biome>>> parameters = new ArrayList<>(noiseSource.parameters().values());
 
                     final float hillOff = 0.125f;
