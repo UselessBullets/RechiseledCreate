@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "management_wanted:fazwood_button",
+    "management_wanted:blackwood_button",
+    "management_wanted:fazwood_pressure_plate",
+    "management_wanted:blackwood_pressure_plate"
+  ]
+}
