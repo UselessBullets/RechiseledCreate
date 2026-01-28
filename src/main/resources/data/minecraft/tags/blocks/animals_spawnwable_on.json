@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "management_wanted:flipside_grass",
+    "management_wanted:dusting_grass",
+    "management_wanted:black_tomb_grass",
+    "management_wanted:dusting_dirt",
+    "management_wanted:flipside_dirt",
+    "management_wanted:black_tomb_dirt"
+  ]
+}

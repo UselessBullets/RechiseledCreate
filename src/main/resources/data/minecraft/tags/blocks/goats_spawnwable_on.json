@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "management_wanted:faz_hills_stone",
+    "management_wanted:faz_hills_rock",
+    "management_wanted:flipside_stone",
+    "management_wanted:flipside_grass",
+    "management_wanted:dusting_grass",
+    "management_wanted:black_tomb_grass",
+    "management_wanted:choppy_grass"
+  ]
+}
