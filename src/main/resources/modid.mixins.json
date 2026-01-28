@@ -4,7 +4,9 @@
   "refmap": "uselesstweaks.mixins.refmap.json",
   "mixins": [
     "MWBiomeMixin",
+    "MWBlocksMixin",
     "MWDustingLeavesMixin",
+    "MWFazHillsDirtMixin",
     "MWFazHillsLeavesMixin",
     "MWSaplingMixin"
   ],
