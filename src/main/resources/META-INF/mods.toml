@@ -64,5 +64,5 @@ description='''${mod_description}'''
     modId="management_wanted"
     mandatory=true
     versionRange="${mw_dependency}"
-    ordering="NONE"
+    ordering="AFTER"
     side="BOTH"

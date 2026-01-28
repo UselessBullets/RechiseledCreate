@@ -56,7 +56,8 @@ dependencies {
     // Fusion
     implementation fg.deobf("maven.modrinth:fusion-connected-textures:${fusion_version}")
     // Management wanted
-    implementation fg.deobf("maven.modrinth:management-wanted:${mw_version}")
+//    implementation fg.deobf("maven.modrinth:management-wanted:${mw_version}")
+    implementation fg.deobf("net.ovdrstudios.management_wanted:management_wanted:1.3.3")
     implementation fg.deobf("software.bernie.geckolib:geckolib-forge-${minecraft_version}:${geckolib_version}")
 
     // Create

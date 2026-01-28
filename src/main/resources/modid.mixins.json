@@ -3,7 +3,10 @@
   "package": "org.useless.tweaks.mixin",
   "refmap": "uselesstweaks.mixins.refmap.json",
   "mixins": [
-    "MWBiomeMixin"
+    "MWBiomeMixin",
+    "MWDustingLeavesMixin",
+    "MWFazHillsLeavesMixin",
+    "MWSaplingMixin"
   ],
   "client": [],
   "server": []

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "management_wanted:blacktomb_bush",
+    "management_wanted:mushroomstem",
+    "management_wanted:mushroom_red",
+    "management_wanted:spotted_mushroom_red",
+    "management_wanted:mushroom_green",
+    "management_wanted:mushroom_blue",
+    "management_wanted:mushroom_purple",
+    "management_wanted:faz_hills_sapling"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "management_wanted:faz_hills_leaf",
+    "management_wanted:faz_hills_leaf_bush",
+    "management_wanted:dusting_leaf",
+    "management_wanted:lilyleaves",
+    "management_wanted:gold_lily_leaves",
+    "management_wanted:blacktomb_leaves",
+    "management_wanted:choppy_leaf"
+  ]
+}

@@ -3,18 +3,11 @@ package org.useless.tweaks;
 import com.mojang.logging.LogUtils;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.supermartijn642.rechiseled.api.registration.RechiseledRegistration;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.Item;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegisterEvent;
-import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
 
 @Mod(UselessTweaks.MODID)
@@ -49,8 +42,8 @@ public class UselessTweaks {
 //    public static final RegistryObject<Item> CYAN_FELT = ITEMS.register("cyan_felt", () -> new Item(new Item.Properties()));
 //    public static final RegistryObject<Item> PINK_FELT = ITEMS.register("pink_felt", () -> new Item(new Item.Properties()));
 
-    public UselessTweaks(){
-        final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+    public UselessTweaks(FMLJavaModLoadingContext context) {
+        final IEventBus modEventBus = context.getModEventBus();
 
         modEventBus.addListener(this::setup);
 //        modEventBus.addListener(this::creativeTabs);
@@ -64,11 +57,9 @@ public class UselessTweaks {
         // Register data providers for generating all the json files
         RECHISELED_REGISTRATION.registerDataProviders();
         Recipes.init();
-
-
     }
 
-    private void setup(RegisterEvent event) {
+    public void setup(RegisterEvent event) {
 
     }
 
@@ -98,4 +89,5 @@ public class UselessTweaks {
 //            event.accept(PINK_FELT);
 //        }
 //    }
+
 }
